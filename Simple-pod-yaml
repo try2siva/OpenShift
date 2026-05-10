@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: bank-pod
+  labels:
+    app: bw
+    type: front-end
+spec:
+  containers:
+    - name: c1
+      image: nginx
