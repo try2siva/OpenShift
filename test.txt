@@ -14,3 +14,7 @@ tolerations:
   operator: "Equal"
   value: "UAT"
   effect: "NoSchedule"
+
+NodeAffinity:
+Add a label env=prod for the node01
+Create a chn pod with nodeaffinity "requireDuringSchedulingIgnoreDuringExecution" and labels of env=prod check whether use Pod is scheduled to a node?
