@@ -3,3 +3,14 @@ Node Affinity (node)
 Daemon Sets
 static pods
 Init containers
+
+
+Taints create: #k taint node node01 env=prod:NoSchedule 
+Taints remove: ##k taint node node01 env=prod:NoSchedule-
+
+Toleration:- Define under the pod.yaml file under spec: location.
+tolerations:
+- key: "env"
+  operator: "Equal"
+  value: "UAT"
+  effect: "NoSchedule"
