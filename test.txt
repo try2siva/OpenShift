@@ -1,3 +1,5 @@
+
+Shortcut: ns -namespace, svc -Service, ds -daemonSet and pd -Pod
 Taints(node) and Tolerations (pod)
 Node Affinity (node)
 Daemon Sets
@@ -18,3 +20,6 @@ tolerations:
 NodeAffinity:
 Add a label env=prod for the node01
 Create a chn pod with nodeaffinity "requireDuringSchedulingIgnoreDuringExecution" and labels of env=prod check whether use Pod is scheduled to a node?
+
+DaemonSet
+It is run on all the worker pod with name of a daemonpod and it is helping monitor and logging. One Daemonpod-DP run on each workernode.
