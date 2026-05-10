@@ -28,3 +28,8 @@ We should remove few lines (strategy, replicaset, status and if any unwanted lin
 Static Pod:
 Find how many static pods available in kube-system namespace 
 Create static pod "dd" in controlplane node. In real environment Static pod using Firewall pod and network pod.
+
+initContainers:
+Linux terms, initiate the services which are before start app services.
+Create init container with following specifications.
+kube terms, before starting container application, initcontainers run terminate once app container start.
