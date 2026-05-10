@@ -1,5 +1,5 @@
 
-Shortcut: ns -namespace, svc -Service, ds -daemonSet and pd -Pod
+Shortcut: ns -namespace, svc -Service, ds -daemonSet, deploy -deployments, rs -replicaSet, sts -statefulSets, no -nodes, cm -configMaps, cj -cronjob, ev -events, pv -persistentvolume, pvc -persistentvolumeclaim, sc -Storageclass and po -Pod
 Taints(node) and Tolerations (pod)
 Node Affinity (node)
 Daemon Sets
