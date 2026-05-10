@@ -24,3 +24,7 @@ Create a chn pod with nodeaffinity "requireDuringSchedulingIgnoreDuringExecution
 DaemonSet
 It is run on all the worker pod with name of a daemonpod and it is helping monitor and logging. One Daemonpod-DP run on each workernode.
 We should remove few lines (strategy, replicaset, status and if any unwanted lines.) 
+
+Static Pod:
+Find how many static pods available in kube-system namespace 
+Create static pod "dd" in controlplane node
